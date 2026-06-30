@@ -1,0 +1,108 @@
+FedAvg RQ4 — Concept Drift Detection and Recovery
+25 rounds | 8 local epochs
+Drift client: FD001 | Drift round: 13 | Source: FD002
+Drift threshold: 0.03 | Recovery LR: 0.003
+=======================================================
+
+Drift Detector Summary:
+  FD001: best_auprc=0.9775  drift_detected_round=17  recovered=False
+  FD002: best_auprc=0.9691  drift_detected_round=5  recovered=False
+  FD003: best_auprc=0.9699  drift_detected_round=5  recovered=True
+  FD004: best_auprc=0.9330  drift_detected_round=7  recovered=False
+
+Drift Client (FD001) AUPRC timeline:
+  Pre-drift  (round 12): 0.9731
+  Min post-drift:                    0.9327
+  After 10 recovery rounds:          0.9578
+  Drop:                              0.0403
+  Recovery gain:                     0.0251
+
+=======================================================
+
+FD001
+  -- All windows --
+  mae   : 22.1540
+  rmse  : 24.2456
+  r2    : 0.3348
+  acc   : 0.9834
+  prec  : 0.7233
+  rec   : 0.7952
+  f1    : 0.7575
+  auprc : 0.8574
+  auroc : 0.9928
+  -- Last window --
+  mae   : 16.7482
+  rmse  : 19.3717
+  r2    : 0.7663
+  acc   : 0.9600
+  prec  : 0.9200
+  rec   : 0.9200
+  f1    : 0.9200
+  auprc : 0.9742
+  auroc : 0.9893
+
+FD002
+  -- All windows --
+  mae   : 22.4655
+  rmse  : 24.5753
+  r2    : 0.3712
+  acc   : 0.9762
+  prec  : 0.6827
+  rec   : 0.7856
+  f1    : 0.7305
+  auprc : 0.8167
+  auroc : 0.9852
+  -- Last window --
+  mae   : 19.3974
+  rmse  : 21.8902
+  r2    : 0.7380
+  acc   : 0.9565
+  prec  : 0.8788
+  rec   : 0.9508
+  f1    : 0.9134
+  auprc : 0.9818
+  auroc : 0.9936
+
+FD003
+  -- All windows --
+  mae   : 26.0332
+  rmse  : 28.2868
+  r2    : -0.1320
+  acc   : 0.9821
+  prec  : 0.5498
+  rec   : 0.8729
+  f1    : 0.6746
+  auprc : 0.7867
+  auroc : 0.9923
+  -- Last window --
+  mae   : 19.6441
+  rmse  : 23.1259
+  r2    : 0.6514
+  acc   : 0.9400
+  prec  : 0.8182
+  rec   : 0.9000
+  f1    : 0.8571
+  auprc : 0.9249
+  auroc : 0.9762
+
+FD004
+  -- All windows --
+  mae   : 25.0873
+  rmse  : 26.8507
+  r2    : 0.0336
+  acc   : 0.9794
+  prec  : 0.5684
+  rec   : 0.7789
+  f1    : 0.6572
+  auprc : 0.7233
+  auroc : 0.9864
+  -- Last window --
+  mae   : 21.7416
+  rmse  : 24.8680
+  r2    : 0.6616
+  acc   : 0.9283
+  prec  : 0.8000
+  rec   : 0.9057
+  f1    : 0.8496
+  auprc : 0.9374
+  auroc : 0.9822

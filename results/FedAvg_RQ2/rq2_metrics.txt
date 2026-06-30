@@ -1,0 +1,99 @@
+FedAvg RQ2 — Fault-Aware Aggregation
+25 rounds | 8 local epochs | alpha=0.5
+=======================================================
+
+Client fault ratios (used for aggregation weighting):
+  FD001: 0.1741
+  FD002: 0.1723
+  FD003: 0.1402
+  FD004: 0.1417
+
+=======================================================
+
+FD001
+  -- All windows --
+  mae   : 13.2962  (baseline=0.0000  ↑13.2962)
+  rmse  : 17.8680  (baseline=0.0000  ↑17.8680)
+  r2    : 0.6387  (baseline=0.0000  ↑0.6387)
+  acc   : 0.9845  (baseline=0.0000  ↑0.9845)
+  prec  : 0.7620  (baseline=0.8251  ↓0.0631)
+  rec   : 0.7620  (baseline=0.7530  ↑0.0090)
+  f1    : 0.7620  (baseline=0.7874  ↓0.0254)
+  auprc : 0.8576  (baseline=0.8975  ↓0.0399)
+  auroc : 0.9939  (baseline=0.0000  ↑0.9939)
+  -- Last window --
+  mae   : 13.4669  (baseline=0.0000  ↑13.4669)
+  rmse  : 18.4987  (baseline=0.0000  ↑18.4987)
+  r2    : 0.7869  (baseline=0.0000  ↑0.7869)
+  acc   : 0.9500  (baseline=0.0000  ↑0.9500)
+  prec  : 0.9167  (baseline=0.9167  ↓0.0000)
+  rec   : 0.8800  (baseline=0.8800  ↓0.0000)
+  f1    : 0.8980  (baseline=0.8980  ↓0.0000)
+  auprc : 0.9605  (baseline=0.9809  ↓0.0204)
+  auroc : 0.9861  (baseline=0.0000  ↑0.9861)
+
+FD002
+  -- All windows --
+  mae   : 14.0839  (baseline=0.0000  ↑14.0839)
+  rmse  : 18.8807  (baseline=0.0000  ↑18.8807)
+  r2    : 0.6289  (baseline=0.0000  ↑0.6289)
+  acc   : 0.9777  (baseline=0.0000  ↑0.9777)
+  prec  : 0.7307  (baseline=0.7679  ↓0.0372)
+  rec   : 0.7240  (baseline=0.6697  ↑0.0543)
+  f1    : 0.7274  (baseline=0.7155  ↑0.0119)
+  auprc : 0.8064  (baseline=0.8033  ↑0.0031)
+  auroc : 0.9862  (baseline=0.0000  ↑0.9862)
+  -- Last window --
+  mae   : 13.9671  (baseline=0.0000  ↑13.9671)
+  rmse  : 18.7535  (baseline=0.0000  ↑18.7535)
+  r2    : 0.8077  (baseline=0.0000  ↑0.8077)
+  acc   : 0.9407  (baseline=0.0000  ↑0.9407)
+  prec  : 0.8833  (baseline=0.9298  ↓0.0465)
+  rec   : 0.8689  (baseline=0.8689  ↓0.0000)
+  f1    : 0.8760  (baseline=0.8983  ↓0.0223)
+  auprc : 0.9711  (baseline=0.9696  ↑0.0015)
+  auroc : 0.9896  (baseline=0.0000  ↑0.9896)
+
+FD003
+  -- All windows --
+  mae   : 13.7235  (baseline=0.0000  ↑13.7235)
+  rmse  : 17.5777  (baseline=0.0000  ↑17.5777)
+  r2    : 0.5629  (baseline=0.0000  ↑0.5629)
+  acc   : 0.9861  (baseline=0.0000  ↑0.9861)
+  prec  : 0.6256  (baseline=0.6398  ↓0.0142)
+  rec   : 0.8557  (baseline=0.8729  ↓0.0172)
+  f1    : 0.7228  (baseline=0.7384  ↓0.0156)
+  auprc : 0.8494  (baseline=0.8694  ↓0.0200)
+  auroc : 0.9949  (baseline=0.0000  ↑0.9949)
+  -- Last window --
+  mae   : 14.2006  (baseline=0.0000  ↑14.2006)
+  rmse  : 19.5946  (baseline=0.0000  ↑19.5946)
+  r2    : 0.7497  (baseline=0.0000  ↑0.7497)
+  acc   : 0.9600  (baseline=0.0000  ↑0.9600)
+  prec  : 0.8333  (baseline=0.8182  ↑0.0151)
+  rec   : 1.0000  (baseline=0.9000  ↑0.1000)
+  f1    : 0.9091  (baseline=0.8571  ↑0.0520)
+  auprc : 0.9767  (baseline=0.9596  ↑0.0171)
+  auroc : 0.9938  (baseline=0.0000  ↑0.9938)
+
+FD004
+  -- All windows --
+  mae   : 13.5773  (baseline=0.0000  ↑13.5773)
+  rmse  : 18.0893  (baseline=0.0000  ↑18.0893)
+  r2    : 0.5614  (baseline=0.0000  ↑0.5614)
+  acc   : 0.9796  (baseline=0.0000  ↑0.9796)
+  prec  : 0.5712  (baseline=0.6034  ↓0.0322)
+  rec   : 0.7847  (baseline=0.7292  ↑0.0555)
+  f1    : 0.6611  (baseline=0.6604  ↑0.0007)
+  auprc : 0.7161  (baseline=0.6892  ↑0.0269)
+  auroc : 0.9892  (baseline=0.0000  ↑0.9892)
+  -- Last window --
+  mae   : 15.3068  (baseline=0.0000  ↑15.3068)
+  rmse  : 20.9317  (baseline=0.0000  ↑20.9317)
+  r2    : 0.7603  (baseline=0.0000  ↑0.7603)
+  acc   : 0.9156  (baseline=0.0000  ↑0.9156)
+  prec  : 0.7463  (baseline=0.8136  ↓0.0673)
+  rec   : 0.9434  (baseline=0.9057  ↑0.0377)
+  f1    : 0.8333  (baseline=0.8571  ↓0.0238)
+  auprc : 0.9483  (baseline=0.9383  ↑0.0100)
+  auroc : 0.9833  (baseline=0.0000  ↑0.9833)

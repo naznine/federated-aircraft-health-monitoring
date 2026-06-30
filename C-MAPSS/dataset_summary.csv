@@ -1,0 +1,5 @@
+Dataset,Train engines,Total cycles,Avg lifecycle,Min lifecycle,Max lifecycle,Fault ratio,Avg RUL,Std RUL
+FD001,100,20631,206.3,128,362,0.1503,107.8,68.9
+FD002,260,53759,206.8,128,378,0.1499,108.2,69.2
+FD003,100,24720,247.2,145,525,0.1254,138.1,98.8
+FD004,249,61249,246.0,128,543,0.126,133.3,89.8

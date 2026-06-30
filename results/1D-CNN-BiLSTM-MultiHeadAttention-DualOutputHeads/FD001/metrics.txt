@@ -1,0 +1,23 @@
+===== 1D-CNN-BiLSTM-MultiHeadAttention-DualOutputHeads | FD001 =====
+
+-- All test windows --
+RUL MAE:         12.6258
+RUL RMSE:        16.9456
+RUL R2:          0.6750
+Fault Accuracy:  0.9851
+Fault Precision: 0.7123
+Fault Recall:    0.9096
+Fault F1:        0.7989
+Fault AUPRC:     0.8985
+Fault AUROC:     0.9957
+
+-- Last window per engine --
+RUL MAE:         10.9771
+RUL RMSE:        15.5327
+RUL R2:          0.8498
+Fault Accuracy:  0.9400
+Fault Precision: 0.8519
+Fault Recall:    0.9200
+Fault F1:        0.8846
+Fault AUPRC:     0.9770
+Fault AUROC:     0.9920

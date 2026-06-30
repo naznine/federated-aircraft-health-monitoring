@@ -1,0 +1,90 @@
+FedAvg | 20 rounds | 5 local epochs
+=======================================================
+
+FD001
+  -- All windows --
+  mae   : 12.4837
+  rmse  : 18.1480
+  r2    : 0.6273
+  acc   : 0.9868
+  prec  : 0.8251
+  rec   : 0.7530
+  f1    : 0.7874
+  auprc : 0.8975
+  auroc : 0.9946
+  -- Last window --
+  mae   : 13.5407
+  rmse  : 17.8604
+  r2    : 0.8014
+  acc   : 0.9500
+  prec  : 0.9167
+  rec   : 0.8800
+  f1    : 0.8980
+  auprc : 0.9809
+  auroc : 0.9925
+
+FD002
+  -- All windows --
+  mae   : 13.4712
+  rmse  : 18.8247
+  r2    : 0.6311
+  acc   : 0.9782
+  prec  : 0.7679
+  rec   : 0.6697
+  f1    : 0.7155
+  auprc : 0.8033
+  auroc : 0.9880
+  -- Last window --
+  mae   : 14.0506
+  rmse  : 18.6623
+  r2    : 0.8095
+  acc   : 0.9526
+  prec  : 0.9298
+  rec   : 0.8689
+  f1    : 0.8983
+  auprc : 0.9696
+  auroc : 0.9894
+
+FD003
+  -- All windows --
+  mae   : 12.5894
+  rmse  : 17.3575
+  r2    : 0.5737
+  acc   : 0.9869
+  prec  : 0.6398
+  rec   : 0.8729
+  f1    : 0.7384
+  auprc : 0.8694
+  auroc : 0.9959
+  -- Last window --
+  mae   : 15.6885
+  rmse  : 21.2262
+  r2    : 0.7063
+  acc   : 0.9400
+  prec  : 0.8182
+  rec   : 0.9000
+  f1    : 0.8571
+  auprc : 0.9596
+  auroc : 0.9888
+
+FD004
+  -- All windows --
+  mae   : 12.4824
+  rmse  : 17.7667
+  r2    : 0.5769
+  acc   : 0.9810
+  prec  : 0.6034
+  rec   : 0.7292
+  f1    : 0.6604
+  auprc : 0.6892
+  auroc : 0.9884
+  -- Last window --
+  mae   : 14.6104
+  rmse  : 19.5221
+  r2    : 0.7915
+  acc   : 0.9325
+  prec  : 0.8136
+  rec   : 0.9057
+  f1    : 0.8571
+  auprc : 0.9383
+  auroc : 0.9827
