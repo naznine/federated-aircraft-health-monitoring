@@ -1,4 +1,4 @@
-# Federated Learning for Aircraft Engine Fault Detection and RUL Prediction
+# Federated Learning for Aircraft Engine Health Monitoring Using C-MAPSS
 
 ---
 
