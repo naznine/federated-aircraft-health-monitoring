@@ -16,7 +16,7 @@ The pipeline addresses:
 ## Dataset
 
 **NASA C-MAPSS (Commercial Modular Aero-Propulsion System Simulation)**  
-Source: [NASA Prognostics Data Repository](https://data.nasa.gov) / [IEEE DataPort](https://ieee-dataport.org)
+Source: https://ieee-dataport.org/documents/c-mapss-dataset
 
 | Subset | Engines (Train) | Operating Conditions | Fault Modes | FL Client |
 |--------|----------------|---------------------|-------------|-----------|
@@ -200,27 +200,9 @@ Dense(64, ReLU) → Dropout(0.2)
 
 | RQ | Title | Status |
 |----|-------|--------|
-| RQ2 | Class Imbalance across Clients | ✅ Implemented and evaluated |
-| RQ4 | Concept Drift Detection | ⚠️ Partially implemented — drift detected, threshold sensitivity noted |
-| RQ5 | Non-IID Validation Bias | ✅ Implemented with MMD-based correction |
+| RQ2 | Class Imbalance across Clients |
+| RQ4 | Concept Drift Detection |
+| RQ5 | Non-IID Validation Bias |
 
 ---
 
-## Future Directions
-
-- **RQ1:** Heterogeneous sensor inputs across clients — requires multi-fleet datasets (N-CMAPSS)
-- **RQ2 extension:** Stronger imbalance simulation via client-specific fault thresholds
-- **RQ4 improvement:** Adaptive drift threshold using exponential moving average of AUPRC
-- **RQ3:** Sensor attribution linked to aviation maintenance ontology (SHAP + fault knowledge base)
-- **RQ6/RQ7:** Membership inference and model poisoning defenses
-
----
-
-## References
-
-Key papers informing this work:
-- Saxena et al. (2008) — C-MAPSS dataset
-- Xu et al. (2025) — Federated learning for aircraft engine RUL prediction
-- Chen et al. (2024) — Classifier clustering under distributed concept drift (NeurIPS)
-- Landau et al. (2026) — Federated RUL prognostics framework
-- Mao et al. (2025) — Federated graph network for aviation fault diagnosis
